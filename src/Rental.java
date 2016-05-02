@@ -17,6 +17,6 @@ class Rental {
     }
 
     int getFrequentRenterPoints() {
-        return _movie.getFrequentRenterPoints(_daysRented);
+        return _movie.Price.getFrequentRenterPoints(_daysRented);
     }
 }
